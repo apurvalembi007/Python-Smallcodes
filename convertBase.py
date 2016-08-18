@@ -7,6 +7,5 @@ def conversion(n, base):
     	n = n/base
     return "".join(map(str,output[::-1]))
     
-    
-    
+        
 print conversion(13, 2)
